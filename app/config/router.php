@@ -1,11 +1,5 @@
 <?php
-/**
- * Standard router for DietCake
- *
- * @license MIT License
- * @author Tatsuya Tsuruoka <http://github.com/ttsuruoka>
- * @link https://github.com/dietcake/dietcake-showcase
- */
+
 function url($url = '', $params = array())
 {
     $query = http_build_query($params);
