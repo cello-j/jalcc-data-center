@@ -1,11 +1,4 @@
 <?php
-/**
- * Standard log class for DietCake
- *
- * @license MIT License
- * @author Tatsuya Tsuruoka <http://github.com/ttsuruoka>
- * @link https://github.com/dietcake/dietcake-showcase
- */
 
 class Log
 {
