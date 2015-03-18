@@ -81,6 +81,7 @@ class Log
     {
         // マイクロ秒オーダーの時間を取得
         list($usec, $sec) = explode(' ', microtime());
+	date_default_timezone_set('Asia/Tokyo');
         return sprintf("%s.%06d%s", date('Y-m-d\TH:i:s', $sec), (int)round($usec * 1000000), date('P'));
     }
 

@@ -1,5 +1,7 @@
 <?php
 
+require_once 'SimpleDBIStatement.php';
+
 class SimpleDBI
 {
     protected static $instances = array();
